@@ -13,7 +13,7 @@ public class SampleSauceTest {
   public static final String ACCESS_KEY = "1158b707-7baf-4b61-9628-fef5ebddf12d";
   public static final String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
  
-  @Test(testName = "1315", description = "sauce lab demo test", groups = { "en_US","altimetrik" })
+  @Test(testName = "1315", description = "sauce lab demo test")
   public void demofirst() throws MalformedURLException{
 
 	    DesiredCapabilities caps = DesiredCapabilities.chrome();

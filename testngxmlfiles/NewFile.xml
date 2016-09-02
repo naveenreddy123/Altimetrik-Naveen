@@ -2,7 +2,7 @@
 <suite thread-count="1" verbose="2" name="Global Martini Tests">
  <test name="sauce lab testcase">
   	<classes>
-  			<class name="alti.SampleSauceTest"/>
+  			<class name="naveen.alti.SampleSauceTest"/>
   	</classes>
  </test>
 </suite>
